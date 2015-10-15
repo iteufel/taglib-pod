@@ -42,8 +42,7 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/ryanheitner/taglib-pod.git", :tag => "v1.9.1-4" }
+  s.source       = { :git => "https://github.com/iteufel/taglib-pod.git", :tag => "v1.9.1-4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -55,6 +54,5 @@ TagLib is a library for reading and editing the meta-data of several popular aud
   #
 
   s.source_files  = "taglib/**/*.{h,cpp}","taglib_config.h"
-
 
 end
